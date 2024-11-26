@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="URL" value="suitclick.com"/> <!-- If your values are common across all test folders, then you can define those parameters, after the suit.-->
+  
+  <test thread-count="5" name="TestingMdoule1">
+    <classes>
+      <class name="TestNGTutorial.BasicsTest1"/>
+       <class name="TestNGTutorial.BasicsTest2"/>
+        <class name="TestNGTutorial.BasicsTest3">
+			<methods>
+				<include name = "demoTestprimi3" />  <!--With the help of Include tag, you can run specific methods/Test from your test. -->
+				<include name = "demoTestMod3" />
+			</methods>
+	</class>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test thread-count="5" name="Testing Mdoule2">
+  	<parameter name="URL" value="classclick.com"/> <!-- 2)	if your those values are specific to particular test. then you can define inside that test folder.-->
+    <parameter name="Username" value="Vaibhav"/>  <!--Multiple paramter -->
+    <classes>
+      <class name="TestNGTutorial.BasicsTest4">
+      
+		<methods>
+			<exclude name = "demoTestFun4" /> <!-- with the help of exclude tag, you can skip methods/Test from your test.-->
+			<exclude name="Mobile.*" /> <!-- with the help of regular Exp, you can skip methods/Test from your test which belongs to same module (test name should be related to that module so we can reg exp-->
+		</methods>
+	</class>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

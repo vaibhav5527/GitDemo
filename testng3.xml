@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Testing Mdoule All">
+  <groups>
+  		<run>
+  			<include name="smoke"/>
+  			<!-- Use exclude incase of skip these cases from execution -->	
+  		</run>
+  </groups>
+  	
+    <classes>
+      <class name="TestNGTutorial.BasicsTest1"/>
+       <class name="TestNGTutorial.BasicsTest2"/>
+        <class name="TestNGTutorial.BasicsTest3"/>
+         <class name="TestNGTutorial.BasicsTest4"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

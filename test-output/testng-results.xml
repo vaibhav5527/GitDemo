@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="18" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-07T23:23:07 IST" name="Suite" finished-at="2024-10-07T23:23:07 IST" duration-ms="299">
+    <groups>
+      <group name="smoke">
+        <method signature="BasicsTest1.demoTest()[pri:0, instance:TestNGTutorial.BasicsTest1@1da2cb77]" name="demoTest" class="TestNGTutorial.BasicsTest1"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-10-07T23:23:07 IST" name="TestingMdoule1" finished-at="2024-10-07T23:23:07 IST" duration-ms="125">
+      <class name="TestNGTutorial.BasicsTest1">
+        <test-method is-config="true" signature="beforeClassTest()[pri:0, instance:TestNGTutorial.BasicsTest1@1da2cb77]" started-at="2024-10-07T23:23:07 IST" name="beforeClassTest" finished-at="2024-10-07T23:23:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:TestNGTutorial.BasicsTest1@1da2cb77]" started-at="2024-10-07T23:23:07 IST" name="beforeMethodTest" finished-at="2024-10-07T23:23:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="demoTest()[pri:0, instance:TestNGTutorial.BasicsTest1@1da2cb77]" started-at="2024-10-07T23:23:07 IST" name="demoTest" finished-at="2024-10-07T23:23:07 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:TestNGTutorial.BasicsTest1@1da2cb77]" started-at="2024-10-07T23:23:07 IST" name="afterMethodTest" finished-at="2024-10-07T23:23:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:TestNGTutorial.BasicsTest1@1da2cb77]" started-at="2024-10-07T23:23:07 IST" name="beforeMethodTest" finished-at="2024-10-07T23:23:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="demoTest1()[pri:0, instance:TestNGTutorial.BasicsTest1@1da2cb77]" started-at="2024-10-07T23:23:07 IST" name="demoTest1" finished-at="2024-10-07T23:23:07 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest1 -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:TestNGTutorial.BasicsTest1@1da2cb77]" started-at="2024-10-07T23:23:07 IST" name="afterMethodTest" finished-at="2024-10-07T23:23:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:TestNGTutorial.BasicsTest1@1da2cb77]" started-at="2024-10-07T23:23:07 IST" name="afterClassTest" finished-at="2024-10-07T23:23:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- TestNGTutorial.BasicsTest1 -->
+      <class name="TestNGTutorial.BasicsTest2">
+        <test-method is-config="true" signature="preRequisiteTest()[pri:0, instance:TestNGTutorial.BasicsTest2@1e04fa0a]" started-at="2024-10-07T23:23:07 IST" name="preRequisiteTest" finished-at="2024-10-07T23:23:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisiteTest -->
+        <test-method signature="WebLoginCar()[pri:0, instance:TestNGTutorial.BasicsTest2@1e04fa0a]" started-at="2024-10-07T23:23:07 IST" name="WebLoginCar" finished-at="2024-10-07T23:23:07 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCar -->
+        <test-method signature="APIloginCar()[pri:0, instance:TestNGTutorial.BasicsTest2@1e04fa0a]" started-at="2024-10-07T23:23:07 IST" name="APIloginCar" finished-at="2024-10-07T23:23:07 IST" depends-on-methods="TestNGTutorial.BasicsTest2.WebLoginCar" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIloginCar -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGTutorial.BasicsTest2@1e04fa0a]" started-at="2024-10-07T23:23:07 IST" name="afterTest" finished-at="2024-10-07T23:23:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGTutorial.BasicsTest2 -->
+      <class name="TestNGTutorial.BasicsTest3">
+        <test-method signature="demoTestprimi3()[pri:0, instance:TestNGTutorial.BasicsTest3@7bd4937b]" started-at="2024-10-07T23:23:07 IST" name="demoTestprimi3" finished-at="2024-10-07T23:23:07 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTestprimi3 -->
+        <test-method signature="demoTestMod3(java.lang.String)[pri:0, instance:TestNGTutorial.BasicsTest3@7bd4937b]" started-at="2024-10-07T23:23:07 IST" name="demoTestMod3" finished-at="2024-10-07T23:23:07 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suitclick.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTestMod3 -->
+      </class> <!-- TestNGTutorial.BasicsTest3 -->
+    </test> <!-- TestingMdoule1 -->
+    <test started-at="2024-10-07T23:23:07 IST" name="Testing Mdoule2" finished-at="2024-10-07T23:23:07 IST" duration-ms="26">
+      <class name="TestNGTutorial.BasicsTest4">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGTutorial.BasicsTest4@4659191b]" started-at="2024-10-07T23:23:07 IST" name="afterTest" finished-at="2024-10-07T23:23:07 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method signature="demoTestMod4()[pri:0, instance:TestNGTutorial.BasicsTest4@4659191b]" started-at="2024-10-07T23:23:07 IST" name="demoTestMod4" finished-at="2024-10-07T23:23:07 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTestMod4 -->
+        <test-method signature="demoTestprim4(java.lang.String)[pri:0, instance:TestNGTutorial.BasicsTest4@4659191b]" started-at="2024-10-07T23:23:07 IST" name="demoTestprim4" finished-at="2024-10-07T23:23:07 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[classclick.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTestprim4 -->
+        <test-method signature="demoTestprim5(java.lang.String,java.lang.String)[pri:0, instance:TestNGTutorial.BasicsTest4@4659191b]" started-at="2024-10-07T23:23:07 IST" name="demoTestprim5" finished-at="2024-10-07T23:23:07 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[classclick.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Vaibhav]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTestprim5 -->
+      </class> <!-- TestNGTutorial.BasicsTest4 -->
+      <class name="TestNGTutorial.BasicsTest3">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGTutorial.BasicsTest3@7bd4937b]" started-at="2024-10-07T23:23:07 IST" name="afterTest" finished-at="2024-10-07T23:23:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGTutorial.BasicsTest3 -->
+    </test> <!-- Testing Mdoule2 -->
+  </suite> <!-- Suite -->
+</testng-results>
